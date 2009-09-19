@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Geo-Coder-Mapquest
-version:            0.01
+version:            0.02
 abstract:           Geocode addresses with Mapquest (beta)
 author:
     - gray <gray@cpan.org>
