@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:               Geo-Coder-Mapquest
-version:            0.02
-abstract:           Geocode addresses with Mapquest (beta)
+version:            0.03
+abstract:           Geocode addresses with Mapquest
 author:
     - gray <gray@cpan.org>
 license:            perl
@@ -11,10 +11,12 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    Encode:          0
     JSON:            2
     LWP::UserAgent:  0
     Test::More:      0
     URI:             1.36
+    URI::Escape:     0
 resources:
     repository:  http://github.com/gray/geo-coder-mapquest
 no_index:
