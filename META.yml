@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Geo-Coder-Mapquest
-version:            0.04
+version:            0.05
 abstract:           Geocode addresses with Mapquest
 author:
     - gray <gray@cpan.org>
@@ -9,12 +9,11 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
-    Devel::Hide:  0
-    Test::More:   0.82
+    Test::More:  0.82
 requires:
     Encode:          0
     JSON:            2
-    LWP::UserAgent:  0
+    LWP::UserAgent:  6.02
     URI:             1.36
     URI::Escape:     0
 resources:
@@ -28,6 +27,5 @@ meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
 recommends:
-    Crypt::SSLeay:  0
-    JSON::XS:       2
-    Net::HTTPS:     0
+    JSON::XS:             2
+    LWP::Protocol::https:  6.02
