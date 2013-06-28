@@ -1,31 +1,31 @@
---- #YAML:1.0
-name:               Geo-Coder-Mapquest
-version:            0.05
-abstract:           Geocode addresses with Mapquest
+---
+abstract: 'Geocode addresses with Mapquest'
 author:
-    - gray <gray@cpan.org>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'gray <gray@cpan.org>'
 build_requires:
-    Test::More:  0.82
-requires:
-    Encode:          0
-    JSON:            2
-    LWP::UserAgent:  6.02
-    URI:             1.36
-    URI::Escape:     0
-resources:
-    repository:  http://github.com/gray/geo-coder-mapquest
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+  Test::More: 0.82
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.68, CPAN::Meta::Converter version 2.131560'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Geo-Coder-Mapquest
+no_index:
+  directory:
+    - t
+    - inc
 recommends:
-    JSON::XS:             2
-    LWP::Protocol::https:  6.02
+  JSON::XS: 2
+  LWP::Protocol::https: 6.02
+requires:
+  Encode: 0
+  JSON: 2
+  LWP::UserAgent: 6.02
+  URI: 1.36
+  URI::Escape: 0
+resources:
+  repository: http://github.com/gray/geo-coder-mapquest
+version: 0.06
